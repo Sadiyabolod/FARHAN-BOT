@@ -2,17 +2,17 @@ const { performance } = require('perf_hooks');
 
 module.exports = {
     config: {
-        name: "ping",
+        name: "FARHAN",
         version: "1.1",
-        author: "BADHON",
+        author: "FARHAN",
         category: "SYSTEM",
         permission: "ADMIN ONLY",
         description: "Checks the bot's ping and response speed with visual design"
     },
     
     onStart: async function({ api, event, args, threadsData, usersData, dashBoardData, globalData, threadModel, userModel, dashBoardModel, globalModel, role, command }) {
-        // Only allow specific admin ID (61571421696077) to use this command
-        const BOT_ADMIN_ID = "61571421696077";
+        // Only allow specific admin ID (100000448596616) to use this command
+        const BOT_ADMIN_ID = "100000448596616";
         
         if (event.senderID !== BOT_ADMIN_ID) {
             const deniedMsg = `╭───────────────╮
